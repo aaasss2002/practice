@@ -18,6 +18,13 @@ void main()
 	cout << "Enter your height" << endl;
 	cin >> height;
 	BMI Student1(name, height, weight);
+	BMI Student2;
+	Student2.setName("jafar");
+
+	cout << "Name is " << Student2.getName() << endl;
+	cout << "Height is = " << Student2.getHeight() << endl;
+	cout << "weight:" << Student2.getWeight() << endl;
+
 	system("PAUSE");
 
 }
